@@ -1,4 +1,4 @@
-### About this fork
+# About this fork
 
 This fork is just using `less` as peer dependency to avoid JavaScript heap out of memory errors while we build our project (those errors appear with modern `less`). To make it possible we reference it via `github:olegstepura/less-loader#commithash` in `package.json`. Since we now need `dist` folder to be present in the repository, build output is committed. This one is used internally, please don't expect any support for this.
 
